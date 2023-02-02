@@ -1,4 +1,12 @@
 # disentanglement_lib
+---
+### Environment setup
+1. Use the requirements.txt; then dlib_tests is all good;
+2. set the path of datasets: export DISENTANGLEMENT_LIB_DATA=/home/guanglinzhou/scratch/cgm/disentanglement_lib/dataset 
+3. export PYTHONPATH="$PWD"; then experiments like dlib_train_weakly_supervised can be run successfully;
+
+
+---
 ![Sample visualization](https://github.com/google-research/disentanglement_lib/blob/master/sample.gif?raw=true)
 
 **disentanglement_lib** is an open-source library for research on learning disentangled representation.

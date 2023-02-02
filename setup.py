@@ -50,7 +50,7 @@ setup(
     install_requires=[
         'future',
         'imageio',
-        'gin-config',
+        'gin-config==0.3.0',
         'scikit-learn',
         'numpy',
         'pandas',
@@ -60,7 +60,7 @@ setup(
         'pillow>=5.0.0',
         'pandas>=0.23.0',
         'scipy>=1.0.0',
-        'tensorflow_hub>=0.2',
+        'tensorflow_hub==0.7.0',
         'tensorflow_probability==0.7',
         'seaborn',
     ],
